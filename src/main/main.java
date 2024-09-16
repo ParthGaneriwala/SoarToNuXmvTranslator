@@ -6,14 +6,9 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import java.io.*;
 import java.util.Scanner;
 public class main{
-    public static String path = "C:/Users/ahmii/learning_agent/FIT_AHMIIAS-master/lvca/code/LearningPrototype/src/main/soar/com/soartech/integrated-learning-agent/load.soar";
-    public static String testPath = "C:/soar_agent_no_trees/integrated-learning-agent/load.soar";
-//    public static String debugPath = "C:/soar_translator/Learning Rules.soar";
-    public static String macroPath = "C:/soar_agent_with_macros/integrated-learning-agent/load.soar";
-    public static String experimentalPath = "C:/experimental_soar_agent/integrated-learning-agent/load.soar";
-//    public static String debugPath = "C:/Github Projects -Parth/Soar-Agent_Year-3/soar_agent (Year 3)/integrated-learning-agent/load.soar";
     public static String debugPath = "D:\\FIT\\Github Projects -Parth\\ICS_SOAR\\load.soar";
-    public static void main(String args[]){
+
+    public static void main(String[] args){
         try{
             // read soar agent into a string
 
