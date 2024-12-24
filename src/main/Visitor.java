@@ -43,7 +43,7 @@ public class Visitor<Object> extends AbstractParseTreeVisitor<Object> implements
         boolean currentIsElaboration;
         if(ruleName.contains("elaborate")){
             currentIsElaboration = true;
-            System.out.println(ruleName);
+//            System.out.println(ruleName);
         }else{
             currentIsElaboration = false;
         }

@@ -131,8 +131,8 @@ public class SoarRules{
                 }
                 // check if both rules have the same guard condition
                 if(guard1.equals(guard2)){
-                    System.err.println(guard1);
-                    System.err.println(guard2);
+//                    System.err.println(guard1);
+//                    System.err.println(guard2);
                     System.out.println("Combining " + rule1.ruleName.replaceAll("\\*", "-") + " and " + rule2.ruleName.replaceAll("\\*", "-"));
                     String newRuleName = "combined-" + rule1.ruleName.replaceAll("\\*", "-") + "-" + rule2.ruleName.replaceAll("\\*", "-");
                     System.out.println("Creating new rule: "+newRuleName);
